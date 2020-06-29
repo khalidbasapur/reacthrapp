@@ -4,6 +4,7 @@ import { Drawer, makeStyles, CssBaseline } from "@material-ui/core";
 import NavBar from "./pages/NavBar";
 import HomePage from "./pages/HomePage";
 import FieldContainer from "./pages/FieldContainer";
+import ButtonContainer from "./pages/ButtonContainer";
 
 const drawerWidth = "25%";
 
@@ -36,6 +37,7 @@ const App = () => {
             className={classes.drawer}
             classes={{ paper: classes.drawerPaper }}
           >
+            <ButtonContainer />
             <NavBar />
           </Drawer>
           <Switch>
