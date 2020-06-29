@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/reacthrapp/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/reacthrapp/static/js/main.2fb5669e.chunk.js",
-    "main.js.map": "/reacthrapp/static/js/main.2fb5669e.chunk.js.map",
+    "main.js": "/reacthrapp/static/js/main.a44aa73d.chunk.js",
+    "main.js.map": "/reacthrapp/static/js/main.a44aa73d.chunk.js.map",
     "runtime-main.js": "/reacthrapp/static/js/runtime-main.92384817.js",
     "runtime-main.js.map": "/reacthrapp/static/js/runtime-main.92384817.js.map",
-    "static/js/2.c983af7c.chunk.js": "/reacthrapp/static/js/2.c983af7c.chunk.js",
-    "static/js/2.c983af7c.chunk.js.map": "/reacthrapp/static/js/2.c983af7c.chunk.js.map",
+    "static/js/2.57290c55.chunk.js": "/reacthrapp/static/js/2.57290c55.chunk.js",
+    "static/js/2.57290c55.chunk.js.map": "/reacthrapp/static/js/2.57290c55.chunk.js.map",
     "index.html": "/reacthrapp/index.html",
-    "precache-manifest.9574dae2d7e3eaba22fa30c964361aaa.js": "/reacthrapp/precache-manifest.9574dae2d7e3eaba22fa30c964361aaa.js",
+    "precache-manifest.81de4361283363cfd41b00d10758bf35.js": "/reacthrapp/precache-manifest.81de4361283363cfd41b00d10758bf35.js",
     "service-worker.js": "/reacthrapp/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/reacthrapp/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.c983af7c.chunk.js.LICENSE.txt": "/reacthrapp/static/js/2.c983af7c.chunk.js.LICENSE.txt"
+    "static/js/2.57290c55.chunk.js.LICENSE.txt": "/reacthrapp/static/js/2.57290c55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.92384817.js",
-    "static/js/2.c983af7c.chunk.js",
+    "static/js/2.57290c55.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2fb5669e.chunk.js"
+    "static/js/main.a44aa73d.chunk.js"
   ]
 }
