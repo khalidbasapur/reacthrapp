@@ -1,13 +1,25 @@
 import React from "react";
-import { Box, Button } from "@material-ui/core";
+import { Box, Button, makeStyles } from "@material-ui/core";
+
+const useStyles = makeStyles((theme) => ({
+  buttonContainer: {
+    "& button": {
+      background: "#0071E3",
+      borderRadius: "18px",
+      marginRight: "16px",
+    },
+  },
+}));
 
 const ButtonContainer = () => {
+  const classes = useStyles();
   return (
     <Box
       display="flex"
       alignItems="center"
       flexDirection="row"
-      className="button-container"
+      className={classes.buttonContainer}
+      m={2}
     >
       <Box>
         <Button size="small" variant="contained" color="primary">
