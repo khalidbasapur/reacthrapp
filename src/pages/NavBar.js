@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { MenuList, MenuItem, ListItemText } from "@material-ui/core";
+import ExpandLessIcon from "@material-ui/icons/ExpandLess";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const NavBar = () => {
   const menuItems = [
@@ -18,6 +20,8 @@ const NavBar = () => {
     },
   ];
 
+  const [openCollapse, setOpenCollapse] = useState(false);
+
   return (
     <>
       <MenuList style={{ padding: 0 }}>
@@ -26,7 +30,11 @@ const NavBar = () => {
             <NavLink
               to={prop.path}
               key={key}
-              style={{ textDecoration: "none", color: "white" }}
+              style={{
+                textDecoration: "none",
+                color: "white",
+                fontFamily: `'Open Sans', sans-serif `,
+              }}
             >
               <MenuItem
                 style={{
@@ -34,7 +42,11 @@ const NavBar = () => {
                   borderBottom: "1px solid white",
                 }}
               >
-                <ListItemText primary={prop.name} />
+                <ListItemText
+                  primary={prop.name}
+                  onClick={() => setOpenCollapse(!openCollapse)}
+                />
+                {openCollapse ? <ExpandLessIcon /> : <ExpandMoreIcon />}
               </MenuItem>
             </NavLink>
           );

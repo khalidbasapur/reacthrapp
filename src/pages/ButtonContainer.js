@@ -7,6 +7,8 @@ const useStyles = makeStyles((theme) => ({
       background: "#0071E3",
       borderRadius: "18px",
       marginRight: "16px",
+      textTransform: "none",
+      fontFamily: `'Open Sans', sans-serif`,
     },
   },
 }));
