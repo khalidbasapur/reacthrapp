@@ -38,6 +38,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     alignItems: "stretch",
     flexDirection: "column",
+    height: "100vh",
   },
 }));
 
